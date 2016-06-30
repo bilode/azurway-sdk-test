@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344730A01D258E930063E017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3447309F1D258E930063E017 /* main.m */; };
+		344730A31D258E930063E017 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 344730A21D258E930063E017 /* AppDelegate.m */; };
+		344730A61D258E930063E017 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344730A51D258E930063E017 /* ViewController.m */; };
+		344730A91D258E930063E017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344730A71D258E930063E017 /* Main.storyboard */; };
+		344730AB1D258E930063E017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344730AA1D258E930063E017 /* Assets.xcassets */; };
+		344730AE1D258E930063E017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344730AC1D258E930063E017 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3447309B1D258E930063E017 /* azurway-sdk-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "azurway-sdk-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3447309F1D258E930063E017 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		344730A11D258E930063E017 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		344730A21D258E930063E017 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		344730A41D258E930063E017 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		344730A51D258E930063E017 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		344730A81D258E930063E017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		344730AA1D258E930063E017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		344730AD1D258E930063E017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		344730AF1D258E930063E017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		344730981D258E930063E017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344730921D258E930063E017 = {
+			isa = PBXGroup;
+			children = (
+				3447309D1D258E930063E017 /* azurway-sdk-test */,
+				3447309C1D258E930063E017 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3447309C1D258E930063E017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3447309B1D258E930063E017 /* azurway-sdk-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3447309D1D258E930063E017 /* azurway-sdk-test */ = {
+			isa = PBXGroup;
+			children = (
+				344730A11D258E930063E017 /* AppDelegate.h */,
+				344730A21D258E930063E017 /* AppDelegate.m */,
+				344730A41D258E930063E017 /* ViewController.h */,
+				344730A51D258E930063E017 /* ViewController.m */,
+				344730A71D258E930063E017 /* Main.storyboard */,
+				344730AA1D258E930063E017 /* Assets.xcassets */,
+				344730AC1D258E930063E017 /* LaunchScreen.storyboard */,
+				344730AF1D258E930063E017 /* Info.plist */,
+				3447309E1D258E930063E017 /* Supporting Files */,
+			);
+			path = "azurway-sdk-test";
+			sourceTree = "<group>";
+		};
+		3447309E1D258E930063E017 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3447309F1D258E930063E017 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3447309A1D258E930063E017 /* azurway-sdk-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344730B21D258E930063E017 /* Build configuration list for PBXNativeTarget "azurway-sdk-test" */;
+			buildPhases = (
+				344730971D258E930063E017 /* Sources */,
+				344730981D258E930063E017 /* Frameworks */,
+				344730991D258E930063E017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "azurway-sdk-test";
+			productName = "azurway-sdk-test";
+			productReference = 3447309B1D258E930063E017 /* azurway-sdk-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		344730931D258E930063E017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Timothée Bilodeau";
+				TargetAttributes = {
+					3447309A1D258E930063E017 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 344730961D258E930063E017 /* Build configuration list for PBXProject "azurway-sdk-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 344730921D258E930063E017;
+			productRefGroup = 3447309C1D258E930063E017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3447309A1D258E930063E017 /* azurway-sdk-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		344730991D258E930063E017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344730AE1D258E930063E017 /* LaunchScreen.storyboard in Resources */,
+				344730AB1D258E930063E017 /* Assets.xcassets in Resources */,
+				344730A91D258E930063E017 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		344730971D258E930063E017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344730A61D258E930063E017 /* ViewController.m in Sources */,
+				344730A31D258E930063E017 /* AppDelegate.m in Sources */,
+				344730A01D258E930063E017 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		344730A71D258E930063E017 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				344730A81D258E930063E017 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		344730AC1D258E930063E017 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				344730AD1D258E930063E017 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		344730B01D258E930063E017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		344730B11D258E930063E017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		344730B31D258E930063E017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "azurway-sdk-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "timbil.azurway-sdk-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		344730B41D258E930063E017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "azurway-sdk-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "timbil.azurway-sdk-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		344730961D258E930063E017 /* Build configuration list for PBXProject "azurway-sdk-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344730B01D258E930063E017 /* Debug */,
+				344730B11D258E930063E017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344730B21D258E930063E017 /* Build configuration list for PBXNativeTarget "azurway-sdk-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344730B31D258E930063E017 /* Debug */,
+				344730B41D258E930063E017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 344730931D258E930063E017 /* Project object */;
+}
