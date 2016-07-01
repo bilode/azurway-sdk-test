@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "AzurWaySdk/AzurWaySdk.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,25 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [AzurWaySdk testMethod:@"yolo"];
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    UIViewController *rootViewController = [[UIViewController alloc] init];
+    UIViewController *containerVC = [[UIViewController alloc] init];
+    containerVC.view.frame = CGRectMake(120,
+                                        0,
+                                        CGRectGetWidth(rootViewController.view.bounds) - 120,
+                                        CGRectGetHeight(rootViewController.view.bounds));
+    containerVC.view.backgroundColor = [UIColor redColor];
+    
+    [rootViewController addChildViewController:containerVC];
+    [containerVC didMoveToParentViewController:rootViewController];
+    
+    self.window.rootViewController = rootViewController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

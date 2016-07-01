@@ -10,9 +10,11 @@
 		344730A01D258E930063E017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3447309F1D258E930063E017 /* main.m */; };
 		344730A31D258E930063E017 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 344730A21D258E930063E017 /* AppDelegate.m */; };
 		344730A61D258E930063E017 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344730A51D258E930063E017 /* ViewController.m */; };
-		344730A91D258E930063E017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344730A71D258E930063E017 /* Main.storyboard */; };
 		344730AB1D258E930063E017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344730AA1D258E930063E017 /* Assets.xcassets */; };
 		344730AE1D258E930063E017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344730AC1D258E930063E017 /* LaunchScreen.storyboard */; };
+		34CED5AF1D269335003C5DF7 /* EntryDebugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34CED5AE1D269335003C5DF7 /* EntryDebugViewController.xib */; };
+		34CED5B21D26936A003C5DF7 /* EntryDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CED5B11D26936A003C5DF7 /* EntryDebugViewController.m */; };
+		90C246EAA118B148D1CD67FC /* libPods-azurway-sdk-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EF19ECAFCA2C4CEA250BD5 /* libPods-azurway-sdk-test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +24,15 @@
 		344730A21D258E930063E017 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		344730A41D258E930063E017 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		344730A51D258E930063E017 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		344730A81D258E930063E017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		344730AA1D258E930063E017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		344730AD1D258E930063E017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		344730AF1D258E930063E017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CED5AE1D269335003C5DF7 /* EntryDebugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EntryDebugViewController.xib; sourceTree = "<group>"; };
+		34CED5B01D26936A003C5DF7 /* EntryDebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryDebugViewController.h; sourceTree = "<group>"; };
+		34CED5B11D26936A003C5DF7 /* EntryDebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryDebugViewController.m; sourceTree = "<group>"; };
+		7FAEF9CEAFDAEA9DA7E04CC5 /* Pods-azurway-sdk-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azurway-sdk-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-azurway-sdk-test/Pods-azurway-sdk-test.release.xcconfig"; sourceTree = "<group>"; };
+		C9EF19ECAFCA2C4CEA250BD5 /* libPods-azurway-sdk-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-azurway-sdk-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33397F58A8083BE94A0219E /* Pods-azurway-sdk-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azurway-sdk-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-azurway-sdk-test/Pods-azurway-sdk-test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C246EAA118B148D1CD67FC /* libPods-azurway-sdk-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,8 @@
 			children = (
 				3447309D1D258E930063E017 /* azurway-sdk-test */,
 				3447309C1D258E930063E017 /* Products */,
+				4663E7975EEF58D493B53678 /* Pods */,
+				4D71C07255CA0FC9DB075933 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +68,13 @@
 		3447309D1D258E930063E017 /* azurway-sdk-test */ = {
 			isa = PBXGroup;
 			children = (
+				34CED5B01D26936A003C5DF7 /* EntryDebugViewController.h */,
+				34CED5B11D26936A003C5DF7 /* EntryDebugViewController.m */,
+				34CED5AE1D269335003C5DF7 /* EntryDebugViewController.xib */,
 				344730A11D258E930063E017 /* AppDelegate.h */,
 				344730A21D258E930063E017 /* AppDelegate.m */,
 				344730A41D258E930063E017 /* ViewController.h */,
 				344730A51D258E930063E017 /* ViewController.m */,
-				344730A71D258E930063E017 /* Main.storyboard */,
 				344730AA1D258E930063E017 /* Assets.xcassets */,
 				344730AC1D258E930063E017 /* LaunchScreen.storyboard */,
 				344730AF1D258E930063E017 /* Info.plist */,
@@ -79,6 +91,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4663E7975EEF58D493B53678 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F33397F58A8083BE94A0219E /* Pods-azurway-sdk-test.debug.xcconfig */,
+				7FAEF9CEAFDAEA9DA7E04CC5 /* Pods-azurway-sdk-test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D71C07255CA0FC9DB075933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9EF19ECAFCA2C4CEA250BD5 /* libPods-azurway-sdk-test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 344730B21D258E930063E017 /* Build configuration list for PBXNativeTarget "azurway-sdk-test" */;
 			buildPhases = (
+				8222151E66ACE35272F2D0B0 /* [CP] Check Pods Manifest.lock */,
 				344730971D258E930063E017 /* Sources */,
 				344730981D258E930063E017 /* Frameworks */,
 				344730991D258E930063E017 /* Resources */,
+				142D6A189E5DCF17E34C88BC /* [CP] Embed Pods Frameworks */,
+				5AB4667263E5A3C3A3984A52 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,11 +170,59 @@
 			files = (
 				344730AE1D258E930063E017 /* LaunchScreen.storyboard in Resources */,
 				344730AB1D258E930063E017 /* Assets.xcassets in Resources */,
-				344730A91D258E930063E017 /* Main.storyboard in Resources */,
+				34CED5AF1D269335003C5DF7 /* EntryDebugViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		142D6A189E5DCF17E34C88BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-azurway-sdk-test/Pods-azurway-sdk-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AB4667263E5A3C3A3984A52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-azurway-sdk-test/Pods-azurway-sdk-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8222151E66ACE35272F2D0B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		344730971D258E930063E017 /* Sources */ = {
@@ -150,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				344730A61D258E930063E017 /* ViewController.m in Sources */,
+				34CED5B21D26936A003C5DF7 /* EntryDebugViewController.m in Sources */,
 				344730A31D258E930063E017 /* AppDelegate.m in Sources */,
 				344730A01D258E930063E017 /* main.m in Sources */,
 			);
@@ -158,14 +239,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		344730A71D258E930063E017 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				344730A81D258E930063E017 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		344730AC1D258E930063E017 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -263,6 +336,7 @@
 		};
 		344730B31D258E930063E017 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F33397F58A8083BE94A0219E /* Pods-azurway-sdk-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "azurway-sdk-test/Info.plist";
@@ -274,6 +348,7 @@
 		};
 		344730B41D258E930063E017 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAEF9CEAFDAEA9DA7E04CC5 /* Pods-azurway-sdk-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "azurway-sdk-test/Info.plist";
@@ -302,6 +377,7 @@
 				344730B41D258E930063E017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
