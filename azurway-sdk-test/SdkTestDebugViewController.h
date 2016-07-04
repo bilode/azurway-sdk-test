@@ -6,8 +6,10 @@
 //  Copyright © 2016 Timothée Bilodeau. All rights reserved.
 //
 
-#import "AWPIViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface EntryDebugViewController : AWPIViewController
+@interface SdkTestDebugViewController : UIViewController
+
+@property (strong, nonatomic) UIViewController *containerVC;
 
 @end
