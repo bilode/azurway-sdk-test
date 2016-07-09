@@ -10,7 +10,6 @@
 #import "SdkTestDebugViewController.h"
 
 #import "AzurWaySdk/AzurWaySdk.h"
-//#import <GoogleMaps/GoogleMaps.h>
 
 @interface TestAppDelegate ()
 

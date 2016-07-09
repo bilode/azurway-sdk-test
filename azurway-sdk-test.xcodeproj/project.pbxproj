@@ -12,7 +12,6 @@
 		344730AB1D258E930063E017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344730AA1D258E930063E017 /* Assets.xcassets */; };
 		34CED5AF1D269335003C5DF7 /* SdkTestDebugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34CED5AE1D269335003C5DF7 /* SdkTestDebugViewController.xib */; };
 		34CED5B21D26936A003C5DF7 /* SdkTestDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CED5B11D26936A003C5DF7 /* SdkTestDebugViewController.m */; };
-		34CED5B51D2697E6003C5DF7 /* AzurWaySdkOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CED5B41D2697E6003C5DF7 /* AzurWaySdkOptions.m */; };
 		90C246EAA118B148D1CD67FC /* libPods-azurway-sdk-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EF19ECAFCA2C4CEA250BD5 /* libPods-azurway-sdk-test.a */; };
 /* End PBXBuildFile section */
 
@@ -26,8 +25,6 @@
 		34CED5AE1D269335003C5DF7 /* SdkTestDebugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SdkTestDebugViewController.xib; sourceTree = "<group>"; };
 		34CED5B01D26936A003C5DF7 /* SdkTestDebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SdkTestDebugViewController.h; sourceTree = "<group>"; };
 		34CED5B11D26936A003C5DF7 /* SdkTestDebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SdkTestDebugViewController.m; sourceTree = "<group>"; };
-		34CED5B31D2697E6003C5DF7 /* AzurWaySdkOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AzurWaySdkOptions.h; sourceTree = "<group>"; };
-		34CED5B41D2697E6003C5DF7 /* AzurWaySdkOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AzurWaySdkOptions.m; sourceTree = "<group>"; };
 		7FAEF9CEAFDAEA9DA7E04CC5 /* Pods-azurway-sdk-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azurway-sdk-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-azurway-sdk-test/Pods-azurway-sdk-test.release.xcconfig"; sourceTree = "<group>"; };
 		C9EF19ECAFCA2C4CEA250BD5 /* libPods-azurway-sdk-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-azurway-sdk-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33397F58A8083BE94A0219E /* Pods-azurway-sdk-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azurway-sdk-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-azurway-sdk-test/Pods-azurway-sdk-test.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,8 +68,6 @@
 				34CED5AE1D269335003C5DF7 /* SdkTestDebugViewController.xib */,
 				344730A11D258E930063E017 /* TestAppDelegate.h */,
 				344730A21D258E930063E017 /* TestAppDelegate.m */,
-				34CED5B31D2697E6003C5DF7 /* AzurWaySdkOptions.h */,
-				34CED5B41D2697E6003C5DF7 /* AzurWaySdkOptions.m */,
 				344730AA1D258E930063E017 /* Assets.xcassets */,
 				344730AF1D258E930063E017 /* Info.plist */,
 				3447309E1D258E930063E017 /* Supporting Files */,
@@ -225,7 +220,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34CED5B51D2697E6003C5DF7 /* AzurWaySdkOptions.m in Sources */,
 				34CED5B21D26936A003C5DF7 /* SdkTestDebugViewController.m in Sources */,
 				344730A31D258E930063E017 /* TestAppDelegate.m in Sources */,
 				344730A01D258E930063E017 /* main.m in Sources */,

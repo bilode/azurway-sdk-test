@@ -6,9 +6,10 @@
 //  Copyright © 2016 Timothée Bilodeau. All rights reserved.
 //
 
+#import <AzurWaySdk/AzurWaySdkOptions.h>
+
 #import "SdkTestDebugViewController.h"
 #import "AzurWaySdk/AzurWaySdk.h"
-#import "AzurWaySdkOptions.h"
 
 #define kButtonNow 0
 #define kButtonBooking 1
@@ -29,17 +30,16 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
+} 
 
 #pragma mark - Navigation
 
 - (IBAction)goToNextScreen:(UIButton*)sender {
-    
     [AzurWaySdk setToken:@"QSVVQzJf7KW1j4PDp8ek6gc8DkSaR9dC" userId:@"38" andDepartureLocation:[[CLLocation alloc] initWithLatitude:48.816528 longitude:2.370457]];
     
     self.containerVC = [[UIViewController alloc] init];
-    self.containerVC.view.frame = CGRectMake(120, 0,
-                                             CGRectGetWidth(self.view.bounds) - 120,
+    self.containerVC.view.frame = CGRectMake(0, 0,
+                                             CGRectGetWidth(self.view.bounds),
                                              CGRectGetHeight(self.view.bounds));
     self.containerVC.view.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.containerVC.view];
